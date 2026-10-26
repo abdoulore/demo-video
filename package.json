@@ -1,0 +1,8 @@
+{
+  "name": "demo-video-skill",
+  "private": true,
+  "description": "Scripted product videos: live pages filmed with a CSS camera, title cards, AI voice, captions and music.",
+  "dependencies": {
+    "puppeteer-core": "25.12.0"
+  }
+}
