@@ -48,7 +48,7 @@ function findChrome() {
 }
 
 function findFfmpeg() {
-  const candidates = [process.env.FFMPEG, "ffmpeg", "C:/Users/DELL/Documents/New project/tools/ffmpeg/bin/ffmpeg.exe"].filter(Boolean);
+  const candidates = [process.env.FFMPEG, "ffmpeg"].filter(Boolean);
   for (const c of candidates) {
     try {
       execFileSync(c, ["-hide_banner", "-version"], { stdio: "ignore" });

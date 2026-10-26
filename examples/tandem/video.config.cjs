@@ -302,8 +302,8 @@ const scenes = (X) => [
 ];
 
 module.exports = {
-  out: { dir: "C:/Users/DELL/Videos/Tandem", name: "Tandem-pitch" },
-  env: "C:/Users/DELL/Documents/Solhack/.env",
+  out: { dir: "./out", name: "Tandem-pitch" },
+  env: "./.env",
   voice: { prefer: ["Brian"] },
   music: true,
   theme: { canvas: "#0b0d12", accent: "#2456e8", accent2: "#6a8cf7", font: "Geist" },

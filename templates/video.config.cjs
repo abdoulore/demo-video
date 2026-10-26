@@ -27,7 +27,7 @@
 const BASE = "https://example.com";
 
 module.exports = {
-  out: { dir: "C:/Users/DELL/Videos/Example", name: "Example-pitch" },
+  out: { dir: "./out", name: "Example-pitch" },
   env: "C:/path/to/project/.env", // where ELEVENLABS_API_KEY lives (process.env wins)
   voice: { prefer: ["Brian", "Eric", "Chris"] }, // or { id: "<voice id>" }; free tier: keep format mp3_44100_128
   music: true,
